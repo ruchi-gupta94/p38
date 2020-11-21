@@ -114,6 +114,7 @@ function draw()
   
     trex.velocityY = trex.velocityY + 0.8;
     
+    //colide
     trex.collide(ground);
     //spawnClouds();
     spawnObstacles();
